@@ -25,12 +25,14 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    padding: 8
   },
   textField: {
     width: '80%',
     borderWidth: 2,
     borderColor: '#ccc',
+    marginRight: 8,
   },
   goalCard: {
     backgroundColor: 'blue',

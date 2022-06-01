@@ -15,8 +15,9 @@ export default function App() {
 
   const deleteGoalHandler = (id) => {
     setGoalsList(currentCourseGoals => {
-      // currentCourseGoals is not populating for some reason causing error after trying to add new goal after delete
-      currentCourseGoals.filter(courseGoal => courseGoal.id != id);
+      return currentCourseGoals.filter((courseGoal) => {
+        return courseGoal.id != id
+      });
     })
   }
 

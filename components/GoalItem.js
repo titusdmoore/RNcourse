@@ -1,7 +1,6 @@
 import { StyleSheet, Text, View, Pressable } from 'react-native';
 
 export default GoalItem = (props) => {
-    console.log(props)
     const { text, onDelete, courseId } = props;
 
     return (
